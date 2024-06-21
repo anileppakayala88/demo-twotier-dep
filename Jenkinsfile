@@ -36,6 +36,12 @@ pipeline{
             }
         }
 
+        stage('Terraform destroy'){
+            steps {
+                sh 'terraform destroy --auto-approve'
+            }
+        }
+
         // stage('Deploy') {
         //     steps{
         //         sh 'cp ./index.html /var/lib/tomcat10/webapps/ROOT/'
