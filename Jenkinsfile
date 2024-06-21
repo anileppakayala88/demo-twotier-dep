@@ -9,7 +9,7 @@ pipeline{
             steps {
                 checkout changelog: false, poll: false, 
                 scm: scmGit(
-                    branches: [[name: '*/master']], 
+                    branches: [[name: '*/main']], 
                     extensions: [], userRemoteConfigs: 
                     [[credentialsId: '0b425ab5-4b9b-4193-a76a-ea3f302d97db', 
                     url: 'https://github.com/anileppakayala88/demo-twotier-dep.git']
