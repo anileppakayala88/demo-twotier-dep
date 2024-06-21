@@ -40,9 +40,5 @@ pipeline{
         //     steps{
         //         sh 'cp ./index.html /var/lib/tomcat10/webapps/ROOT/'
         //     }
-        }
     }
-
-
-
 }
