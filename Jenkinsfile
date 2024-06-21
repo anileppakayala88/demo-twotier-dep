@@ -1,8 +1,8 @@
 pipeline{
     agent any
-    tools {
+    // tools {
 
-    }
+    // }
     
     stages {       
         stage('Git Fetch') {
