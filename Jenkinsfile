@@ -56,7 +56,9 @@ pipeline{
             }
         }
 
-        stage('SSH and ')       
+        // stage('SSH and ')  {
+
+        // }     
 
 
 
@@ -67,5 +69,5 @@ pipeline{
         // }
 
     
-    }
+    // }
 }
